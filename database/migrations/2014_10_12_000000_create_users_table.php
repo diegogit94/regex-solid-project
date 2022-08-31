@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('document_type', 5);
             $table->string('identification', 50)->unique();
             $table->string('email', 50)->unique();
-            $table->timestamp('email_verified_at', 30)->nullable();
+            $table->timestamp('email_verified_at')->nullable();
             $table->string('password', 50);
 
             $table->rememberToken();
