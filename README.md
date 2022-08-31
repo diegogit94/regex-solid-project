@@ -11,7 +11,7 @@ Hi, this is my project to the Placetopay’s challenge, is a simple store with o
 - Go to your favorite DB administrator (DBeaver, phpmyadmin, etc) and create a new DB
 - Go into .env file and configure the following variables:
 
->DB_DATABASE = Add the name of the DB that you have created before(Line 14). <br>
+>DB_DATABASE = Add the name of the DB that you have created before (Line 14). <br>
 >DB_USERNAME = Add your DB username (Line 15). <br>
 >DB_PASSWORD = Add your DB password  (Line 16).
 
