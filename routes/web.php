@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\FormController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return redirect()->route('form.index');
+    return redirect()->route('user.create');
 });
 
-Route::resource('form', FormController::class);
+Route::resource('user', UserController::class);
