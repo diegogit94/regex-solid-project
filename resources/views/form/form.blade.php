@@ -9,30 +9,6 @@
     <title>Document</title>
 </head>
 <body>
-{{--@if (session('status'))--}}
-{{--    <div class="flex bg-gradient-to-r from-green-300 rounded-lg p-4 mb-4 text-sm text-gray-500">--}}
-{{--        {{ session('status') }}--}}
-{{--    </div>--}}
-{{--@endif--}}
-
-{{--@if(count($errors) > 0)--}}
-{{--    <div class="spacer"></div>--}}
-{{--    <div class="alert alert-danger">--}}
-{{--        <ul>--}}
-{{--            @foreach ($errors->all() as $error)--}}
-{{--                <li>{!! $error !!}</li>--}}
-{{--            @endforeach--}}
-{{--        </ul>--}}
-{{--    </div>--}}
-{{--@endif--}}
-
-{{--@if ($errors->any())--}}
-{{--    @foreach ($errors->all() as $error)--}}
-{{--        <div>{{$error}}</div>--}}
-{{--    @endforeach--}}
-{{--@endif--}}
-
-
 <form action="#" method="POST">
     @csrf
     <div class="grid bg-gray-900 h-screen place-items-center">
